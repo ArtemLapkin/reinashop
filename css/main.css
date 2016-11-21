@@ -1,3 +1,29 @@
 @import url(bootstrap.min.css);
+.parr-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  opacity: 0; }
+
+.parr-content {
+  max-width: 450px;
+  margin: -150px auto 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+  color: #ebebeb;
+  padding: 0 8%;
+  text-align: center; }
+
+#slide-1 .main-bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/main-bg.jpg); }
 
 /*# sourceMappingURL=main.css.map */
