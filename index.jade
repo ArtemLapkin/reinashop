@@ -7,17 +7,63 @@ html(lang="ru")
     meta(name="author", content="")
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel="stylesheet", href="css/main.css")
-    link(rel="icon", type="image/png", href="images/favicon.png")
+    link(rel="icon", type="image/png", href="img/favicon.png")
     link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400i&amp;subset=cyrillic")
     link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Oswald:300")
 
   body
 
     header#slide-1
-      .main-bg(data-center="background-position: 50% 0px;", data-top-bottom="background-position: 50% -100px;", data-anchor-target="#slide-1")
+      .main-bg.full-height(data-center="background-position: 50% 0px;", data-top-bottom="background-position: 50% -100px;")
         .parr-container
-          .parr-content(data-center="opacity: 0", data-106-top="opacity: 0", data-anchor-target="#slide-1 img")
-            img(src="img/logo.png").logo
+          .parr-content.js-logo-container
+            img(src="img/logo.png").logo.js-logo
+
+    section.container.padd-vert-1
+      article
+        h1.text-center Добро Пожаловать
+        h5 Интернет-магазин <span class='reina-font'>REINASHOP</span> предоставляет огромный выбор женской одежды и аксессуаров на любой вкус.
+        h5 Ознакомиться с полным ассортиментом интернет-магазина можно на наших страница в социальных сетях.
+
+    section
+      .main-bg
+        .parr-container.half-height
+          .parr-content.js-logo-container
+            article.padd-top-15
+              h2.white-h
+                span.reina-font "REINASHOP
+                span - ваш помошник в мире моды
+                span.reina-font "
+
+    section.container
+      article
+        .row.clothes-pics
+          h3 Это и многое другое вы можете найти на наших страницах
+          .row.img-row
+            figure.col-md-4.col-sm-12
+              img(src="img/model-1.jpg")
+              figcaption BlackBird Sweater - <strong>$135</strong>
+
+            figure.col-md-4.col-sm-12
+              img(src="img/model-2.jpg")
+              figcaption BlackBird Trousers - <strong>$135</strong>
+
+            figure.col-md-4.col-sm-12
+              img(src="img/model-3.jpg")
+              figcaption BlackBird Jacket - <strong>$135</strong>
+
+          .row.img-row
+            figure.col-md-4.col-sm-12
+              img(src="img/model-5.jpg")
+              figcaption BlackBird Jacket - <strong>$135</strong>
+
+            figure.col-md-4.col-sm-12
+              img(src="img/model-6.jpg")
+              figcaption BlackBird Jacket - <strong>$135</strong>
+
+            figure.col-md-4.col-sm-12
+              img(src="img/model-7.jpg")
+              figcaption BlackBird Sweater - <strong>$135</strong>
 
   footer
 
