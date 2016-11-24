@@ -12,59 +12,68 @@ html(lang="ru")
     link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Oswald:300")
 
   body
-    header#slide-1
-      .main-bg.full-height(data-center="background-position: 50% 0px;", data-top-bottom="background-position: 50% -100px;")
-        .parr-container
-          .parr-content.js-logo-container
-            img(src="img/logo.png").logo.js-logo
+    header
+      .main-bg.full-height
+        .logo.js-logo
 
-    section.container.padd-vert-1
-      article
-        h1.text-center Добро Пожаловать
-        h5 Интернет-магазин <span class='reina-font'>REINASHOP</span> предоставляет огромный выбор женской одежды и аксессуаров на любой вкус.
-        h5 Ознакомиться с полным ассортиментом интернет-магазина можно на наших страница в социальных сетях.
+    section.bg-wh.rel
+      .container.padd-vert-1
+        article
+          h1.text-center Добро Пожаловать
+          h5 Интернет-магазин <span class='reina-font'>REINASHOP</span> предоставляет огромный выбор женской одежды и аксессуаров на любой вкус.
+          h5 Ознакомиться с полным ассортиментом интернет-магазина можно на наших страница в социальных сетях.
 
-    section
-      .main-bg
-        .parr-container.half-height
-          .parr-content.js-logo-container
-            article.padd-top-15
-              h2.white-h
-                span.reina-font "REINASHOP
-                span - ваш помошник в мире моды
-                span.reina-font "
+    section.rel.main-bg.half-height
+       .container
+          article.padd-top-15
+            h2.white
+              span.reina-font "REINASHOP
+              span - ваш помошник в мире моды
+              span.reina-font "
 
-    section.container
-      article
-        .row.clothes-pics
-          h3 Это и многое другое вы можете найти на наших страницах
-          .row.img-row
-            figure.col-md-4.col-sm-12
-              img(src="img/model-1.jpg")
-              figcaption BlackBird Sweater - <strong>$135</strong>
+    section.bg-wh.marg-bott-45.rel
+      .container
+        article
+          .row.clothes-pics
+            h3 Это и многое другое вы можете найти на наших страницах
+            .row.img-row
+              figure.col-md-4.col-sm-12
+                img(src="img/model-1.jpg")
+                figcaption BlackBird Sweater - <strong>$135</strong>
 
-            figure.col-md-4.col-sm-12
-              img(src="img/model-2.jpg")
-              figcaption BlackBird Trousers - <strong>$135</strong>
+              figure.col-md-4.col-sm-12
+                img(src="img/model-2.jpg")
+                figcaption BlackBird Trousers - <strong>$135</strong>
 
-            figure.col-md-4.col-sm-12
-              img(src="img/model-3.jpg")
-              figcaption BlackBird Jacket - <strong>$135</strong>
+              figure.col-md-4.col-sm-12
+                img(src="img/model-3.jpg")
+                figcaption BlackBird Jacket - <strong>$135</strong>
 
-          .row.img-row
-            figure.col-md-4.col-sm-12
-              img(src="img/model-5.jpg")
-              figcaption BlackBird Jacket - <strong>$135</strong>
+            .row.img-row
+              figure.col-md-4.col-sm-12
+                img(src="img/model-5.jpg")
+                figcaption BlackBird Jacket - <strong>$135</strong>
 
-            figure.col-md-4.col-sm-12
-              img(src="img/model-6.jpg")
-              figcaption BlackBird Jacket - <strong>$135</strong>
+              figure.col-md-4.col-sm-12
+                img(src="img/model-6.jpg")
+                figcaption BlackBird Jacket - <strong>$135</strong>
 
-            figure.col-md-4.col-sm-12
-              img(src="img/model-7.jpg")
-              figcaption BlackBird Sweater - <strong>$135</strong>
+              figure.col-md-4.col-sm-12
+                img(src="img/model-7.jpg")
+                figcaption BlackBird Sweater - <strong>$135</strong>
 
-  //footer
+  footer
+    .footer-stuff
+      .text-center.marg-top-05
+        img(src="img/logo.png")
+        h4 Королевой быть просто
+      .social-links.text-center
+        a(href='https://vk.com/id352511043' target='_blank')
+          img.social-img(src='img/soc-vk.png')
+        a(href='https://www.instagram.com/_reina_shop_/' target='_blank')
+          img.social-img(src='img/soc-inst.png')
+        a(href='https://www.facebook.com/profile.php?id=100013830461857' target='_blank')
+          img.social-img(src='img/soc-fb.png')
 
   script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js")
   script(src="js/main.js")
