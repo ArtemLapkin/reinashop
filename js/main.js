@@ -1,10 +1,10 @@
 (function($){
   // init Skrollr
-  var s = skrollr.init({
-    render: function(data) {
-
-    }
-  });
+  // var s = skrollr.init({
+  //   render: function(data) {
+  //
+  //   }
+  // });
 
 
 
