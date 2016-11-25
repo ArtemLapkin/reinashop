@@ -59,6 +59,20 @@ img {
 .white {
   color: #fff; }
 
+.table {
+  display: table; }
+
+.table-row {
+  display: table-row; }
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 15px; }
+
+.reina-font {
+  font-family: Oswald; }
+
 .clothes-pics {
   margin-bottom: 100px; }
   .clothes-pics h3 {
@@ -80,7 +94,6 @@ img {
     background: none; }
 
 .big-text {
-  margin-top: 12%;
   font-size: 46px; }
 @media(max-width: 768px) {
   .big-text {
