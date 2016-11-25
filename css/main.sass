@@ -1,18 +1,22 @@
 @import 'bootstrap.min.css'
+@import 'fonts.css'
 
 body
   font-family: "Segoe UI", sans-serif
   font-size: 16px
-  font-style: italic
 
 .text-center
   text-align: center
 
 h1,h2,h3,h4,h5,h6
-  font-weight: 400
+  font-weight: 300
   margin: 0
 header
   overflow: hidden
+
+img
+  width: 100%
+
 .container
   position: relative
   max-width: 900px
@@ -55,6 +59,21 @@ header
 
 .marg-bott-45
   margin-bottom: 450px
+
+.welcome
+  font-size: 30px
+
+.fade-in-on-visible
+  height: 450px
+  background: #000
+  transition: background ease 2s
+  &.visible
+    background: none
+.big-text
+  margin-top: 12%
+  font-size: 46px
+.img-row
+  overflow: hidden
 figure
   margin-bottom: 20px
   position: relative
@@ -79,7 +98,7 @@ figure
       left: 0
 
     img
-      transform: scale(1.1)
+      //transform: scale(1.1)
 
 figcaption
   position: absolute
@@ -109,6 +128,8 @@ footer
 
     h4
       margin-bottom: 20px
+    .logo-img
+      max-width: 300px
 
   a
     color: white

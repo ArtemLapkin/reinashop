@@ -29,6 +29,11 @@
 
     }
 
+
+    if(wScroll> $('.fade-in-on-visible').offset().top - $(window).height() + 50 ){
+      $('.fade-in-on-visible').addClass('visible')
+    }
+
   })
 
 })(jQuery);
