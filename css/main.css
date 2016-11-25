@@ -53,7 +53,8 @@ img {
   height: 50vh; }
 
 .padd-vert-1 {
-  padding: 100px 0; }
+  padding-top: 100px;
+  padding-bottom: 100px; }
 
 .white {
   color: #fff; }
@@ -68,9 +69,11 @@ img {
 
 .welcome {
   font-size: 30px; }
-
+@media(max-width: 768px) {
+  .welcome {
+    font-size: 20px; } }
 .fade-in-on-visible {
-  height: 450px;
+  height: 100%;
   background: #000;
   transition: background ease 2s; }
   .fade-in-on-visible.visible {
@@ -79,7 +82,9 @@ img {
 .big-text {
   margin-top: 12%;
   font-size: 46px; }
-
+@media(max-width: 768px) {
+  .big-text {
+    font-size: 30px; } }
 .img-row {
   overflow: hidden; }
 
@@ -101,6 +106,8 @@ figure {
     transition: all 0.3s ease-in-out; }
   figure:hover figcaption {
     left: 0; }
+  figure:hover img {
+    transform: scale(1.1); }
 
 figcaption {
   position: absolute;
@@ -111,6 +118,9 @@ figcaption {
   padding: 2px 8px;
   font-size: 11px;
   transition: all 0.3s ease-in-out; }
+  @media (max-width: 768px) {
+    figcaption {
+      font-size: 25px; } }
 
 footer {
   background: black;

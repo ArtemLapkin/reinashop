@@ -49,7 +49,8 @@ img
   height: 50vh
 
 .padd-vert-1
-  padding: 100px 0
+  padding-top: 100px
+  padding-bottom: 100px
 .white
   color: #fff
 .clothes-pics
@@ -62,9 +63,11 @@ img
 
 .welcome
   font-size: 30px
+  @media(max-width: 768px)
+    font-size: 20px
 
 .fade-in-on-visible
-  height: 450px
+  height: 100%
   background: #000
   transition: background ease 2s
   &.visible
@@ -72,6 +75,9 @@ img
 .big-text
   margin-top: 12%
   font-size: 46px
+  @media(max-width: 768px)
+    font-size: 30px
+
 .img-row
   overflow: hidden
 figure
@@ -98,7 +104,7 @@ figure
       left: 0
 
     img
-      //transform: scale(1.1)
+      transform: scale(1.1)
 
 figcaption
   position: absolute
@@ -109,8 +115,8 @@ figcaption
   padding: 2px 8px
   font-size: 11px
   transition: all 0.3s ease-in-out
-
-
+  @media (max-width: 768px)
+    font-size: 25px
 
 // footer
 footer
